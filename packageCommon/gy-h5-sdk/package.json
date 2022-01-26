@@ -1,0 +1,15 @@
+{
+  "name": "@mono/gy-h5-sdk",
+  "version": "1.0.0",
+  "description": "高阳h5开发SDK",
+  "main": "src/main.js",
+  "dependencies": {
+    "@mono/components": "workspace:^1.0.0",
+    "@mono/utils": "workspace:^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

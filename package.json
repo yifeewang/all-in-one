@@ -1,0 +1,41 @@
+{
+  "name": "all-in-one",
+  "version": "1.0.0",
+  "private": true,
+  "description": "pnpm + lerna + yarn + monorepo策略",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packagesActivity/*",
+    "packageCommon/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifeewang/all-in-one.git"
+  },
+  "keywords": [
+    "pnpm",
+    "lerna",
+    "yarn",
+    "monorepo"
+  ],
+  "author": "wyf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifeewang/all-in-one/issues"
+  },
+  "homepage": "https://github.com/yifeewang/all-in-one#readme",
+  "dependencies": {
+    "@mono/myTest": "workspace:^1.0.0",
+    "crypto-js": "^4.1.1",
+    "eslint": "7.11.0",
+    "js-md5": "^0.7.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
